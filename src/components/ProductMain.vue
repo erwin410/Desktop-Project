@@ -1,15 +1,7 @@
 <template>
-  <div class="sb-nav-fixed">
-    <Header />
-
-        <div id="layoutSidenav">
-            <div id="layoutSidenav_nav">
-                <SideBar />
-            </div>
-            <div id="layoutSidenav_content">
-                <main>
+  <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Tableau de Bord</h1>
+                        <h1 class="mt-4">Product</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active">LS Custom</li>
                         </ol>
@@ -31,28 +23,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="row">
-                            <div class="col-xl-6">
-                                <div class="card mb-4">
-                                    <div class="card-header">
-                                        <i class="fas fa-chart-area me-1"></i>
-                                        Area Chart Example
-                                    </div>
-                                    <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="card mb-4">
-                                    <div class="card-header">
-                                        <i class="fas fa-chart-bar me-1"></i>
-                                        Bar Chart Example
-                                    </div>
-                                    <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table me-1"></i>
@@ -79,15 +49,7 @@
                         </div>
                     </div>
                 </main>
-
-                <Footer />
-            </div>
-        </div>
-  </div>
 </template>
 
 <script setup lang="ts">
-import Header from '../components/Header.vue';
-import SideBar from '../components/SideBar.vue';
-import Footer from '../components/Footer.vue';
 </script>
