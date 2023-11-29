@@ -1,5 +1,5 @@
 <template>
-  <main>
+    <main>
                     <div class="container-fluid px-4">
                         <h1 class="mt-4">Product</h1>
                         <ol class="breadcrumb mb-4">
@@ -32,12 +32,8 @@
                                 <table id="datatablesSimple">
                                     <thead>
                                         <tr>
-                                            <th>Type de piece</th>
                                             <th>Nom </th>
-                                            <th>Marque</th>
-                                            <th>Prix</th>
-                                            <th>Description</th>
-                                            <th>Stock</th>
+                                            <th>Categorie</th>
                                         </tr>
                                     </thead>
                                    
@@ -48,7 +44,7 @@
                             </div>
                         </div>
                     </div>
-                </main>
+    </main>
 </template>
 
 <script setup lang="ts">
