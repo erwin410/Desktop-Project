@@ -4,10 +4,12 @@ import App from './App.vue'
 
 import HomePage from './pages/HomePage.vue';
 import ProductPage from './pages/ProductPage.vue';
+import StockPage from './pages/StockPage.vue';
 
 const routes = [
   { path: '/', component: HomePage },
   { path: '/product', component: ProductPage },
+  { path: '/stock', component: StockPage }
 ];
 
 const router = createRouter({

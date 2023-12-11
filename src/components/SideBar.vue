@@ -14,6 +14,11 @@
                                 Product
                             </router-link>
 
+                            <router-link to="/stock" class="nav-link">
+                                <div class="sb-nav-link-icon"><i class="fas fa-th-list"></i></div>
+                                Stock
+                            </router-link>
+
                             <!-- <div class="sb-sidenav-menu-heading">Gestion</div> -->
                             <!-- <a class="nav-link" href="ajouter.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-plus-circle"></i></div>
